@@ -9,6 +9,25 @@ namespace Basic{
         return x + y;
     }
 }
+namespace Sort{
+    void quickSort(){
+
+    }
+    void insertionSort(){
+
+    }
+    void mergeSort(){
+
+    }
+    namespace Comparision{
+        void Less(){
+
+        }
+        void Greater(){
+            
+        }
+    }
+}
 int main(){
     // 1st way
     //using namespace AVG;
@@ -26,6 +45,9 @@ int main(){
     //using namespace Basic;
     //calculate(1.1f,2.2f);
     Basic::calculate(1.1f,2.2f);
+
+    using namespace Sort::Comparision;
+    Sort::Comparision::Less();
 
     return 0;
 }
