@@ -26,10 +26,13 @@ void Car::brake()
 {
     speed = 0;
 }
+void Foo(const Car &car){
 
-void Car::addPassengers(int count)
+}
+void Car::addPassengers(int passengers)
 {
-    passengers = count;
+    this->passengers = passengers;
+    Foo(*this);
 }
 
 void Car::dashBoard()
