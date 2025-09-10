@@ -2,16 +2,10 @@
 #include <iostream>
 Car::Car()
 {
-    std::cout<<"Constructor is called:"<<std::endl;
-    fuel = 0;
-    speed = 0;
-    passengers = 0;
 }
 Car::Car(float amount)
 {
     fuel = amount;
-    speed = 0; // Dont forget to intialise another component otherwise they will be undefined
-    passengers = 0;
 }
 Car::~Car()
 {

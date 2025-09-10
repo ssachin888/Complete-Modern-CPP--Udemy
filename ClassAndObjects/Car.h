@@ -1,9 +1,14 @@
 #pragma once
 class Car{
 private:  
-    float fuel;
-    float speed;
-    int passengers;
+    float fuel{0};
+    float speed{0};
+    int passengers{0};
+    // We can even initialise array and pointer
+    int arr[5] = {1,2,3,4,5};
+    int *p{};
+    // When we are non-static data member intialisation auto will not work
+    //auto i = 5;
 public:
     Car();
     Car(float amount);

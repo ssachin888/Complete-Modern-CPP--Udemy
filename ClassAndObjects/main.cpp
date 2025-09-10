@@ -1,11 +1,7 @@
 #include "Car.h"
 int main(){
     //Car car;
-    Car car(4);
+    Car car(5);
     //car.fillFuel(6);
-    car.accelerate();
-    car.accelerate();
-    car.accelerate();
-    car.accelerate();
     car.dashBoard();
 }
