@@ -8,7 +8,7 @@ private:
     int arr[5] = {1,2,3,4,5};
     int *p{};
     // When we are non-static data member intialisation auto will not work
-    //auto i = 5;
+    // auto i = 5;
 public:
     Car();
     Car(float amount);
