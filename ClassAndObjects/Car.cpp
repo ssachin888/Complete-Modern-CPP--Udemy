@@ -44,5 +44,9 @@ void Car::dashBoard()
     std::cout<< "Fuel: "<<fuel <<std::endl;
     std::cout<< "Speed: "<<speed <<std::endl;
     std::cout<< "Passengers: "<<passengers <<std::endl;
+}
+
+void Car::showCount()
+{
     std::cout<< "Total cars: "<<totalCount <<std::endl;
 }

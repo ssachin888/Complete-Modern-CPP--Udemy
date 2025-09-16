@@ -21,5 +21,5 @@ public:
     void brake();
     void addPassengers(int count);
     void dashBoard();
-
+    static void showCount();
 };
