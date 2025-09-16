@@ -20,6 +20,6 @@ public:
     void accelerate();
     void brake();
     void addPassengers(int count);
-    void dashBoard();
+    void dashBoard() const;
     static void showCount();
 };

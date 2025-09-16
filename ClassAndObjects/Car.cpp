@@ -39,8 +39,9 @@ void Car::addPassengers(int passengers)
     Foo(*this);
 }
 
-void Car::dashBoard()
+void Car::dashBoard() const
 {
+    // ++fuel; menaing this->fuel++;
     std::cout<< "Fuel: "<<fuel <<std::endl;
     std::cout<< "Speed: "<<speed <<std::endl;
     std::cout<< "Passengers: "<<passengers <<std::endl;

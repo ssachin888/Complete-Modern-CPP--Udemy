@@ -2,12 +2,8 @@
 int main(){
     Car::showCount();
     //Car car;
-    Car car(5);
+    const Car car(5);
     //car.fillFuel(6);
-    car.accelerate();
-    car.accelerate();
-    car.accelerate();
-    car.accelerate();
     car.dashBoard();
     Car c1, c2;
     //car.dashBoard();
