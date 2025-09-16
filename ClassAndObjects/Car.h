@@ -4,6 +4,7 @@ private:
     float fuel{0};
     float speed{0};
     int passengers{0};
+    static int totalCount; // We need to define it outside the class. Preferably in Car.cpp
     // We can even initialise array and pointer
     int arr[5] = {1,2,3,4,5};
     int *p{};
